@@ -11,7 +11,6 @@
 		956193AB25CEC0A600EB02E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956193AA25CEC0A600EB02E8 /* SceneDelegate.swift */; };
 		956193AD25CEC0A600EB02E8 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956193AC25CEC0A600EB02E8 /* EventsViewController.swift */; };
 		956193B025CEC0A600EB02E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956193AE25CEC0A600EB02E8 /* Main.storyboard */; };
-		956193B325CEC0A600EB02E8 /* FetchCodingExercise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 956193B125CEC0A600EB02E8 /* FetchCodingExercise.xcdatamodeld */; };
 		956193B525CEC0AB00EB02E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956193B425CEC0AB00EB02E8 /* Assets.xcassets */; };
 		956193B825CEC0AB00EB02E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956193B625CEC0AB00EB02E8 /* LaunchScreen.storyboard */; };
 		956193C325CEC0AC00EB02E8 /* FetchCodingExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956193C225CEC0AC00EB02E8 /* FetchCodingExerciseTests.swift */; };
@@ -57,7 +56,6 @@
 		956193AA25CEC0A600EB02E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		956193AC25CEC0A600EB02E8 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		956193AF25CEC0A600EB02E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		956193B225CEC0A600EB02E8 /* FetchCodingExercise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FetchCodingExercise.xcdatamodel; sourceTree = "<group>"; };
 		956193B425CEC0AB00EB02E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		956193B725CEC0AB00EB02E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		956193B925CEC0AB00EB02E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 				956193AA25CEC0A600EB02E8 /* SceneDelegate.swift */,
 				956193B425CEC0AB00EB02E8 /* Assets.xcassets */,
 				956193B925CEC0AB00EB02E8 /* Info.plist */,
-				956193B125CEC0A600EB02E8 /* FetchCodingExercise.xcdatamodeld */,
 			);
 			path = FetchCodingExercise;
 			sourceTree = "<group>";
@@ -357,7 +354,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				956193B325CEC0A600EB02E8 /* FetchCodingExercise.xcdatamodeld in Sources */,
 				9561940725CEFF9100EB02E8 /* EventPhotosAPI.swift in Sources */,
 				9561942025CF33F800EB02E8 /* EventDetailsViewController.swift in Sources */,
 				956193F025CECEA300EB02E8 /* NetworkError.swift in Sources */,
@@ -707,19 +703,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		956193B125CEC0A600EB02E8 /* FetchCodingExercise.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				956193B225CEC0A600EB02E8 /* FetchCodingExercise.xcdatamodel */,
-			);
-			currentVersion = 956193B225CEC0A600EB02E8 /* FetchCodingExercise.xcdatamodel */;
-			path = FetchCodingExercise.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9561939D25CEC0A600EB02E8 /* Project object */;
 }
