@@ -16,7 +16,7 @@ public class NetworkingServices {
     ///   - url: The url that contains the image we want to retrieve
     ///   - completion: Our completion handler
     ///   - result: The Image retrieved from the URL or a NetworkError enum we get back incase we run into an error
-    func getEventPhoto(from url: URL, completion: @escaping (_ result: Result<UIImage?,Error>) -> Void){
+    func getEventPhoto(from url: URL, completion: @escaping (_ result: Result<UIImage,Error>) -> Void){
             if let cachedImage = self.imageMemoryCache.object(forKey: url.absoluteString as NSString){
                 completion(.success(cachedImage))
                 return

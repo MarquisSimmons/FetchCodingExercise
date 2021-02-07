@@ -5,7 +5,6 @@
 //  Created by Marquis Simmons on 2/6/21.
 //
 
-import Foundation
 import UIKit
 
 struct EventPhotosAPI: APIHandler {

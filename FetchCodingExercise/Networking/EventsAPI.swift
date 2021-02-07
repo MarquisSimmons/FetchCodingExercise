@@ -25,12 +25,12 @@ struct EventsAPI: APIHandler {
                 completion(.success(events))
             }
             events = eventObjects
-            return completion(.success(events))
+            completion(.success(events))
             
         }
         catch let jsonError {
             print("There was an error decoding the Events: \(jsonError)")
-            return completion(.failure(.malformedJSON))
+            completion(.failure(.malformedJSON))
 
         }
     }
