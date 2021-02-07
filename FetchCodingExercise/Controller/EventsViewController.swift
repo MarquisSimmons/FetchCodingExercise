@@ -32,11 +32,14 @@ class EventsViewController: UIViewController {
         bar.searchBarStyle = .default
         bar.sizeToFit()
         bar.placeholder = "Search for an Event..."
+        bar.showsCancelButton = true
         return bar
     }()
     var listOfEvents = [EventList.Event]()
     var filteredEvents = [EventList.Event]()
     let service = NetworkingServices()
+    var favoritedData = UserDefaults.standard.object(forKey: "favorited-events") as? Data
+    lazy var favoritedSet = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(favoritedData!) as? Set<Int>
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,7 +73,6 @@ class EventsViewController: UIViewController {
         }
         
     }
-    
     /// This helper function is responsible for adding  constraints to the View's subviews
     fileprivate func setupViews() {
         let eventsTableViewConstraints = [
@@ -86,13 +88,13 @@ class EventsViewController: UIViewController {
             errorLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
             errorLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
         ]
-
+        
         eventsTableView.tableHeaderView = searchBar
         view.addSubview(eventsTableView)
         view.addSubview(errorLabel)
         NSLayoutConstraint.activate(eventsTableViewConstraints)
         NSLayoutConstraint.activate(errorLabelConstraints)
-
+        
         
         
     }
@@ -111,6 +113,13 @@ extension EventsViewController: UITableViewDelegate, UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let event = filteredEvents[indexPath.item]
+        let detailsViewController = EventDetailsViewController(with: event, delegate: self)
+        navigationController?.pushViewController(detailsViewController, animated: true)
+        
+        
     }
     
 }
@@ -145,7 +154,6 @@ extension EventsViewController: UISearchBarDelegate {
         }
     }
     
-    
     /// Filters events whose Title or location containts the search bar's text
     /// - Parameter text: the current text in the search bar
     fileprivate func filterEvents(with text: String) {
@@ -155,13 +163,42 @@ extension EventsViewController: UISearchBarDelegate {
         })
         eventsTableView.reloadData()
     }
+    
+    /// This function displays all events when the seatch bar is empty
     fileprivate func resetTableView() {
         filteredEvents = listOfEvents
         eventsTableView.reloadData()
-        DispatchQueue.main.async {
-            self.searchBar.resignFirstResponder()
-        }
+        self.searchBar.resignFirstResponder()
+        
     }
     
     
 }
+
+// MARK: - Event Updater, the object responsible for handling when Event's favorite field is being changed
+extension EventsViewController: FavoriteToggleHandler {
+    func handleFavoriteToggle(for event: EventList.Event) {
+        if event.favorited == nil {
+            event.favorited = true
+        }
+        else {
+            event.favorited!.toggle()
+        }
+        guard var favoritedSet = favoritedSet else {
+            fatalError("Favorite Event Set does not exist!")
+        }
+        if event.favorited! {
+            favoritedSet.insert(event.id)
+        }
+        else {
+            favoritedSet.remove(event.id)
+        }
+        let encodedSet = try? NSKeyedArchiver.archivedData(withRootObject: favoritedSet, requiringSecureCoding: false)
+        UserDefaults.standard.setValue(encodedSet, forKey: "favorited-events")
+        eventsTableView.reloadData()
+    }
+    
+}
+
+
+

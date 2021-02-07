@@ -10,11 +10,12 @@ import UIKit
 
 struct EventPhotosAPI: APIHandler {
  
-    func parseResponse(data: Data) -> UIImage? {
+    func parseResponse(data: Data, completion: @escaping (_ result: Result<UIImage,NetworkError>) -> Void) {
         guard let returnedImage = UIImage(data: data) else {
             print("There was an error converting the Image data")
-            return nil
+            completion(.failure(.badData(dataType: "UIImage")))
+            return
         }
-        return returnedImage
+        completion(.success(returnedImage))
     }
 }

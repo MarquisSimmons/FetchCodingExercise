@@ -1,6 +1,6 @@
 //
 //  NetworkError.swift
-//  SquareEmployeeDirectory
+//  FetchCodingExercise
 //
 //  Created by Marquis Simmons on 1/31/21.
 //
@@ -14,6 +14,7 @@ enum NetworkError: Error, Equatable {
     case notFound(url: String)
     case failedRequest
     case malformedJSON
+    case badData(dataType: String)
     
 }
 extension NetworkError: LocalizedError {
@@ -31,6 +32,8 @@ extension NetworkError: LocalizedError {
             return "Nothing was found at the provided URL: \(url)"
         case .malformedJSON:
             return "An error occurred while trying to parse the JSON Object"
+        case .badData(let dataType):
+            return "An error occured while trying to process the \(dataType) Data"
         default:
             return "Network request failed."
         }

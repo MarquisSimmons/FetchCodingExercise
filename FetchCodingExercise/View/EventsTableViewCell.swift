@@ -47,6 +47,7 @@ class EventsTableViewCell: UITableViewCell {
         let iv = UIImageView()
         iv.translatesAutoresizingMaskIntoConstraints = false
         iv.contentMode = .scaleAspectFill
+        iv.tintColor = .systemRed
         iv.image = UIImage(systemName: "heart.fill")
         return iv
     }()
@@ -91,7 +92,7 @@ class EventsTableViewCell: UITableViewCell {
         let favoritedImageConstraints = [
             favoritedIcon.leadingAnchor.constraint(equalTo: eventImage.leadingAnchor, constant: -5),
             favoritedIcon.topAnchor.constraint(equalTo: eventImage.topAnchor, constant: -5),
-            favoritedIcon.heightAnchor.constraint(equalTo: eventImage.heightAnchor, multiplier: 0.33),
+            favoritedIcon.heightAnchor.constraint(equalTo: eventImage.heightAnchor, multiplier: 0.40),
             favoritedIcon.widthAnchor.constraint(equalTo: favoritedIcon.heightAnchor)
         ]
         contentView.addSubview(eventImage)
@@ -107,6 +108,9 @@ class EventsTableViewCell: UITableViewCell {
         eventImage.layer.cornerRadius = contentView.frame.height/2
     }
     
+    
+    /// This function creates an Event Cell using data extracted from the passed in Event object
+    /// - Parameter event: The Event object this cell represents
     public func configure(with event: EventList.Event){
         let service = NetworkingServices()
         self.event = event
@@ -123,8 +127,7 @@ class EventsTableViewCell: UITableViewCell {
                 case .success(let image):
                     eventImage = image
                 case .failure:
-                    return
-                    
+                    break
                 }
                 DispatchQueue.main.async {
                     strongSelf.eventImage.image = eventImage

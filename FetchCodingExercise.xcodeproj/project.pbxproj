@@ -24,6 +24,14 @@
 		9561940225CEFB4400EB02E8 /* EventsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561940125CEFB4400EB02E8 /* EventsAPI.swift */; };
 		9561940725CEFF9100EB02E8 /* EventPhotosAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561940625CEFF9100EB02E8 /* EventPhotosAPI.swift */; };
 		9561940C25CF013200EB02E8 /* APILoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561940B25CF013200EB02E8 /* APILoader.swift */; };
+		9561942025CF33F800EB02E8 /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9561941F25CF33F800EB02E8 /* EventDetailsViewController.swift */; };
+		957089D425D018A100DFC91D /* XCTestCase+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957089D325D018A100DFC91D /* XCTestCase+JSON.swift */; };
+		957089DD25D0192700DFC91D /* Events.json in Resources */ = {isa = PBXBuildFile; fileRef = 957089DC25D0192700DFC91D /* Events.json */; };
+		957089FD25D0369100DFC91D /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956193E125CEC26200EB02E8 /* EventList.swift */; };
+		95708A0225D036B200DFC91D /* EventsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95708A0125D036B200DFC91D /* EventsTest.swift */; };
+		95708A0E25D03F2A00DFC91D /* APILoaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95708A0D25D03F2A00DFC91D /* APILoaderTest.swift */; };
+		95708A1725D03FD900DFC91D /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95708A1625D03FD900DFC91D /* MockURLProtocol.swift */; };
+		95708A2225D0483800DFC91D /* MalformedEvents.json in Resources */ = {isa = PBXBuildFile; fileRef = 95708A2125D0483800DFC91D /* MalformedEvents.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +75,13 @@
 		9561940125CEFB4400EB02E8 /* EventsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsAPI.swift; sourceTree = "<group>"; };
 		9561940625CEFF9100EB02E8 /* EventPhotosAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPhotosAPI.swift; sourceTree = "<group>"; };
 		9561940B25CF013200EB02E8 /* APILoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILoader.swift; sourceTree = "<group>"; };
+		9561941F25CF33F800EB02E8 /* EventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		957089D325D018A100DFC91D /* XCTestCase+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+JSON.swift"; sourceTree = "<group>"; };
+		957089DC25D0192700DFC91D /* Events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Events.json; sourceTree = "<group>"; };
+		95708A0125D036B200DFC91D /* EventsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTest.swift; sourceTree = "<group>"; };
+		95708A0D25D03F2A00DFC91D /* APILoaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILoaderTest.swift; sourceTree = "<group>"; };
+		95708A1625D03FD900DFC91D /* MockURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		95708A2125D0483800DFC91D /* MalformedEvents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MalformedEvents.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +148,12 @@
 		956193C125CEC0AC00EB02E8 /* FetchCodingExerciseTests */ = {
 			isa = PBXGroup;
 			children = (
+				95708A1525D03FD900DFC91D /* Mock Classes */,
+				957089DB25D018FB00DFC91D /* Test Data */,
+				957089D325D018A100DFC91D /* XCTestCase+JSON.swift */,
 				956193C225CEC0AC00EB02E8 /* FetchCodingExerciseTests.swift */,
+				95708A0D25D03F2A00DFC91D /* APILoaderTest.swift */,
+				95708A0125D036B200DFC91D /* EventsTest.swift */,
 				956193C425CEC0AC00EB02E8 /* Info.plist */,
 			);
 			path = FetchCodingExerciseTests;
@@ -170,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				956193AC25CEC0A600EB02E8 /* EventsViewController.swift */,
+				9561941F25CF33F800EB02E8 /* EventDetailsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,6 +206,23 @@
 				9561940B25CF013200EB02E8 /* APILoader.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		957089DB25D018FB00DFC91D /* Test Data */ = {
+			isa = PBXGroup;
+			children = (
+				95708A2125D0483800DFC91D /* MalformedEvents.json */,
+				957089DC25D0192700DFC91D /* Events.json */,
+			);
+			path = "Test Data";
+			sourceTree = "<group>";
+		};
+		95708A1525D03FD900DFC91D /* Mock Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95708A1625D03FD900DFC91D /* MockURLProtocol.swift */,
+			);
+			path = "Mock Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +338,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95708A2225D0483800DFC91D /* MalformedEvents.json in Resources */,
+				957089DD25D0192700DFC91D /* Events.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +359,7 @@
 			files = (
 				956193B325CEC0A600EB02E8 /* FetchCodingExercise.xcdatamodeld in Sources */,
 				9561940725CEFF9100EB02E8 /* EventPhotosAPI.swift in Sources */,
+				9561942025CF33F800EB02E8 /* EventDetailsViewController.swift in Sources */,
 				956193F025CECEA300EB02E8 /* NetworkError.swift in Sources */,
 				956193E825CEC35100EB02E8 /* NetworkingServices.swift in Sources */,
 				956193AD25CEC0A600EB02E8 /* EventsViewController.swift in Sources */,
@@ -336,6 +377,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95708A0225D036B200DFC91D /* EventsTest.swift in Sources */,
+				957089FD25D0369100DFC91D /* EventList.swift in Sources */,
+				95708A0E25D03F2A00DFC91D /* APILoaderTest.swift in Sources */,
+				95708A1725D03FD900DFC91D /* MockURLProtocol.swift in Sources */,
+				957089D425D018A100DFC91D /* XCTestCase+JSON.swift in Sources */,
 				956193C325CEC0AC00EB02E8 /* FetchCodingExerciseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

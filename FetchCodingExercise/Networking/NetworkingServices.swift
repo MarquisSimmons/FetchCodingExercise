@@ -27,9 +27,7 @@ public class NetworkingServices {
                 apiLoader.makeAPIRequest(to: url.absoluteString) { result in
                     switch result {
                     case .success(let image):
-                        if let returnedImage = image {
-                            self.imageMemoryCache.setObject(returnedImage, forKey: url.absoluteString as NSString)
-                        }
+                        self.imageMemoryCache.setObject(image, forKey: url.absoluteString as NSString)
                         completion(.success(image))
                     case .failure(let error):
                         completion(.failure(error))

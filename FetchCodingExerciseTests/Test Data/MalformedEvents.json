@@ -1,0 +1,653 @@
+{
+    "events": [
+        {
+            "type": "ncaa_womens_basketball",
+            "datetime_utc": "2021-02-06T09:30:00",
+            "venue": {
+                "state": "TX",
+                "name_v2": "Frank Erwin Center",
+                "postal_code": "78701",
+                "name": "Frank Erwin Center",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/frank-erwin-center\/tickets",
+                "score": 0.731013,
+                "location": {
+                    "lat": 30.2767,
+                    "lon": -97.7324
+                },
+                "address": "1701 Red River",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 17,
+                "city": "Austin",
+                "slug": "frank-erwin-center",
+                "extended_address": "Austin, TX 78701",
+                "id": 917,
+                "popularity": 0,
+                "access_method": null,
+                "metro_code": 635,
+                "capacity": 16755,
+                "display_location": "Austin, TX"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "ncaa_womens_basketball",
+                    "name": "Texas Longhorns Womens Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/texas-longhorns-womens-basketball-5ab9b4\/9634\/huge.jpg",
+                    "id": 9634,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/texas-longhorns-womens-basketball-5ab9b4\/9634\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 9
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030300,
+                            "name": "ncaa_womens_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "https:\/\/commons.wikimedia.org\/wiki\/Category:Frank_Erwin_Center#\/media\/File:Frank_Erwin_Center_Basketball.JPG",
+                    "url": "https:\/\/seatgeek.com\/texas-longhorns-womens-basketball-tickets",
+                    "score": 0.39,
+                    "slug": "texas-longhorns-womens-basketball",
+                    "home_venue_id": 917,
+                    "short_name": "Texas (Women)",
+                    "num_upcoming_events": 9,
+                    "colors": null,
+                    "image_license": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.5\/",
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 30.2767,
+                        "lon": -97.7324
+                    }
+                },
+                {
+                    "type": "ncaa_womens_basketball",
+                    "name": "West Virginia Mountaineers Womens Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/west-virginia-mountaineers-womens-basketball-858c51\/9603\/huge.jpg",
+                    "id": 9603,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/west-virginia-mountaineers-womens-basketball-858c51\/9603\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 10
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030300,
+                            "name": "ncaa_womens_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "null",
+                    "url": "https:\/\/seatgeek.com\/west-virginia-mountaineers-womens-basketball-tickets",
+                    "score": 0.35,
+                    "slug": "west-virginia-mountaineers-womens-basketball",
+                    "home_venue_id": 3288,
+                    "short_name": "West Virginia (Women)",
+                    "num_upcoming_events": 10,
+                    "colors": null,
+                    "image_license": "null",
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": {
+                        "lat": 39.6493,
+                        "lon": -79.9815
+                    }
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T03:30:00",
+            "time_tbd": true,
+            "short_title": "West Virginia (Women) at Texas (Women)",
+            "visible_until_utc": "2021-02-07T06:00:00",
+            "stats": {
+                "listing_count": 2,
+                "average_price": 54,
+                "lowest_price_good_deals": 45,
+                "lowest_price": 45,
+                "highest_price": 64,
+                "visible_listing_count": 2,
+                "dq_bucket_counts": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "median_price": 50,
+                "lowest_sg_base_price": 29,
+                "lowest_sg_base_price_good_deals": 29
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1030000,
+                    "name": "basketball",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1030300,
+                    "name": "ncaa_womens_basketball",
+                    "parent_id": 1030000,
+                    "rank": 0
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/west-virginia-mountaineers-at-texas-longhorns-womens-basketball-tickets\/ncaa-womens-basketball\/2021-02-06-3-30-am\/5343589",
+            "score": 0.422,
+            "announce_date": "2020-11-17T00:00:00",
+            "created_at": "2020-11-17T23:22:08",
+            "date_tbd": false,
+            "title": "West Virginia Mountaineers at Texas Longhorns Women's Basketball",
+            "popularity": 0.664,
+            "description": "",
+            "status": "normal",
+            "access_method": null,
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "ncaa_womens_basketball",
+            "id": 5344590,
+            "datetime_utc": "2021-02-06T09:30:00",
+            "venue": {
+                "state": "OK",
+                "name_v2": "Gallagher-Iba Arena",
+                "postal_code": "74078",
+                "name": "Gallagher-Iba Arena",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/gallagher-iba-arena\/tickets",
+                "score": 0.566916,
+                "location": {
+                    "lat": 36.1257,
+                    "lon": -97.0651
+                },
+                "address": "202 Gallagher Hall",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 12,
+                "city": "Stillwater",
+                "slug": "gallagher-iba-arena",
+                "extended_address": "Stillwater, OK 74078",
+                "id": 3439,
+                "popularity": 0,
+                "access_method": null,
+                "metro_code": 650,
+                "capacity": 13611,
+                "display_location": "Stillwater, OK"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "ncaa_womens_basketball",
+                    "name": "Oklahoma State Cowgirls Womens Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/oklahoma-state-cowgirls-womens-basketball-b39483\/9624\/huge.jpg",
+                    "id": 9624,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/oklahoma-state-cowgirls-womens-basketball-b39483\/9624\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 8
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030300,
+                            "name": "ncaa_womens_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "http:\/\/25.media.tumblr.com\/tumblr_lycb43PAC11qeflxso2_1280.jpg#_=_",
+                    "url": "https:\/\/seatgeek.com\/oklahoma-state-cowgirls-womens-basketball-tickets",
+                    "score": 0.36,
+                    "slug": "oklahoma-state-cowgirls-womens-basketball",
+                    "home_venue_id": 3439,
+                    "short_name": "Oklahoma State (Women)",
+                    "num_upcoming_events": 8,
+                    "colors": null,
+                    "image_license": null,
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 36.1257,
+                        "lon": -97.0651
+                    }
+                },
+                {
+                    "type": "ncaa_womens_basketball",
+                    "name": "Oklahoma Sooners Womens Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/oklahoma-sooners-womens-basketball-1ad281\/9625\/huge.jpg",
+                    "id": 9625,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/oklahoma-sooners-womens-basketball-1ad281\/9625\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 6
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030300,
+                            "name": "ncaa_womens_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "http:\/\/farm4.staticflickr.com\/3618\/3402162012_58fd77a888_b.jpg",
+                    "url": "https:\/\/seatgeek.com\/oklahoma-sooners-womens-basketball-tickets",
+                    "score": 0.36,
+                    "slug": "oklahoma-sooners-womens-basketball",
+                    "home_venue_id": 3426,
+                    "short_name": "Oklahoma (Women)",
+                    "num_upcoming_events": 6,
+                    "colors": null,
+                    "image_license": null,
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": {
+                        "lat": 35.1874,
+                        "lon": -97.4437
+                    }
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T03:30:00",
+            "time_tbd": true,
+            "short_title": "Oklahoma (Women) at Oklahoma State (Women)",
+            "visible_until_utc": "2021-02-07T06:00:00",
+            "stats": {
+                "listing_count": 1,
+                "average_price": 35,
+                "lowest_price_good_deals": 32,
+                "lowest_price": 31,
+                "highest_price": 61,
+                "visible_listing_count": 1,
+                "dq_bucket_counts": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "median_price": 30,
+                "lowest_sg_base_price": 15,
+                "lowest_sg_base_price_good_deals": 16
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1030000,
+                    "name": "basketball",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1030300,
+                    "name": "ncaa_womens_basketball",
+                    "parent_id": 1030000,
+                    "rank": 0
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/oklahoma-sooners-at-oklahoma-state-cowgirls-womens-basketball-tickets\/ncaa-womens-basketball\/2021-02-06-3-30-am\/5344590",
+            "score": 0.342,
+            "announce_date": "2020-11-19T00:00:00",
+            "created_at": "2020-11-19T23:46:58",
+            "date_tbd": false,
+            "popularity": 0.598,
+            "description": "",
+            "status": "normal",
+            "access_method": null,
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "theater",
+            "id": 5358590,
+            "datetime_utc": "2021-02-06T13:00:00",
+            "venue": {
+                "state": "TX",
+                "name_v2": "Ford Center",
+                "postal_code": "75034",
+                "name": "Ford Center",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/ford-center-3\/tickets",
+                "score": 0.780464,
+                "location": {
+                    "lat": 33.1095,
+                    "lon": -96.8272
+                },
+                "address": "9 Cowboys Way",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 3,
+                "city": "Frisco",
+                "slug": "ford-center-3",
+                "extended_address": "Frisco, TX 75034",
+                "id": 418739,
+                "popularity": 0,
+                "access_method": {
+                    "method": "QRCODE",
+                    "created_at": "2018-10-10T16:23:28Z",
+                    "employee_only": false
+                },
+                "metro_code": 623,
+                "capacity": 12000,
+                "display_location": "Frisco, TX"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "theater",
+                    "name": "WOGA Classic & Liukin International Competitions",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/woga-classic-liukin-international-competitions-11829e\/792937\/huge.jpg",
+                    "id": 792937,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/woga-classic-liukin-international-competitions-11829e\/792937\/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 2
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 3000000,
+                            "name": "theater",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 8
+                        }
+                    ],
+                    "image_attribution": "client provided",
+                    "url": "https:\/\/seatgeek.com\/woga-classic-liukin-international-competitions-tickets",
+                    "score": 0,
+                    "slug": "woga-classic-liukin-international-competitions",
+                    "home_venue_id": null,
+                    "short_name": "WOGA Classic & Liukin International Competitions",
+                    "num_upcoming_events": 2,
+                    "colors": null,
+                    "image_license": "client provided",
+                    "popularity": 0,
+                    "location": null
+                }
+            ],
+            "is_open": true,
+            "links": [],
+            "datetime_local": "2021-02-06T07:00:00",
+            "time_tbd": false,
+            "short_title": "WOGA Classic & Liukin International Competitions Day 2",
+            "visible_until_utc": "2021-02-07T01:30:00",
+            "stats": {
+                "listing_count": 61,
+                "average_price": 38,
+                "lowest_price_good_deals": null,
+                "lowest_price": 38,
+                "highest_price": 38,
+                "visible_listing_count": 23,
+                "dq_bucket_counts": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "median_price": 38,
+                "lowest_sg_base_price": 30,
+                "lowest_sg_base_price_good_deals": null
+            },
+            "taxonomies": [
+                {
+                    "id": 3000000,
+                    "name": "theater",
+                    "parent_id": null,
+                    "rank": 8
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/woga-classic-and-liukin-international-competitions-day-2-tickets\/theater\/2021-02-06-7-am\/5358590",
+            "score": 0.375,
+            "announce_date": "2021-01-22T00:00:00",
+            "created_at": "2021-01-22T16:44:19",
+            "date_tbd": false,
+            "title": "WOGA Classic & Liukin International Competitions Day 2",
+            "popularity": 0.565,
+            "description": "TO MAINTAIN A SAFE ENVIRONMENT, GUESTS WILL BE PERIODICALLY REQUIRED TO EXIT THE SEATING AREA FOR CLEANING AND SANITATION. THANK YOU FOR YOUR COOPERATION.",
+            "status": "normal",
+            "access_method": {
+                "method": "QRCODE",
+                "created_at": "2018-10-10T16:23:28Z",
+                "employee_only": false
+            },
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": "2021-02-07T01:30:00",
+            "general_admission": true,
+            "themes": [],
+            "domain_information": []
+        },
+    ],
+    "meta": {
+        "total": 121642,
+        "took": 8,
+        "page": 1,
+        "per_page": 10,
+        "geolocation": null
+    },
+    "in_hand": {}
+}

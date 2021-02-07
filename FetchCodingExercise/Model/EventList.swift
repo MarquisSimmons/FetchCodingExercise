@@ -12,12 +12,13 @@ public struct EventList: Codable {
 }
 // MARK: - Event Object
 extension EventList {
-    struct Event: Codable {
+    class Event: Codable {
         let id: Int
         let title: String
         let datetimeUtc: String
         let venue: EventLocation
         let performers: [Performer]
+        
         var favorited: Bool?
         
         
@@ -56,3 +57,9 @@ extension EventList {
         let image: String
     }
 }
+
+// MARK: - Favorite Toggle Delegate
+protocol FavoriteToggleHandler {
+    func handleFavoriteToggle(for event: EventList.Event)
+}
+

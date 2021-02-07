@@ -7,19 +7,30 @@
 
 import Foundation
 struct EventsAPI: APIHandler {
-    func parseResponse(data: Data) -> [EventList.Event] {
+    func parseResponse(data: Data, completion: @escaping (_ result: Result<[EventList.Event],NetworkError>) -> Void) {
+        let userDefaults = UserDefaults.standard
         var events = [EventList.Event]()
         do {
             let jsonDecoder = JSONDecoder()
             jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
             let eventObjects = try jsonDecoder.decode(EventList.self, from: data).events
+            
+            // Assigns the favorited flag to the events upon initialization
+            let favoritedData = userDefaults.object(forKey: "favorited-events") as? Data
+            if let favoriteEvents = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(favoritedData!) as? Set<Int> {
+                events = eventObjects.map({ (event) -> EventList.Event in
+                    event.favorited = favoriteEvents.contains(event.id)
+                    return event
+                })
+                completion(.success(events))
+            }
             events = eventObjects
-            return events
+            return completion(.success(events))
             
         }
         catch let jsonError {
-            print("There was an error decoding the Employees: \(jsonError)")
-            return events
+            print("There was an error decoding the Events: \(jsonError)")
+            return completion(.failure(.malformedJSON))
 
         }
     }

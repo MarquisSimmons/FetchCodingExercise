@@ -1,0 +1,2401 @@
+{
+    "events": [
+        {
+            "type": "ncaa_womens_basketball",
+            "id": 5346061,
+            "datetime_utc": "2021-02-06T09:30:00",
+            "venue": {
+                "state": "IA",
+                "name_v2": "Hilton Coliseum",
+                "postal_code": "50010",
+                "name": "Hilton Coliseum",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/hilton-coliseum\/tickets",
+                "score": 0.642605,
+                "location": {
+                    "lat": 42.021,
+                    "lon": -93.6348
+                },
+                "address": "1700 Lincoln Way",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 13,
+                "city": "Ames",
+                "slug": "hilton-coliseum",
+                "extended_address": "Ames, IA 50010",
+                "id": 3458,
+                "popularity": 0,
+                "access_method": null,
+                "metro_code": 679,
+                "capacity": 14356,
+                "display_location": "Ames, IA"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "ncaa_womens_basketball",
+                    "name": "Iowa State Cyclones Womens Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/iowa-state-cyclones-womens-basketball-554613\/9628\/huge.jpg",
+                    "id": 9628,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/iowa-state-cyclones-womens-basketball-554613\/9628\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 10
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030300,
+                            "name": "ncaa_womens_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "null",
+                    "url": "https:\/\/seatgeek.com\/iowa-state-cyclones-womens-basketball-tickets",
+                    "score": 0.33,
+                    "slug": "iowa-state-cyclones-womens-basketball",
+                    "home_venue_id": 3458,
+                    "short_name": "Iowa State (Women)",
+                    "num_upcoming_events": 10,
+                    "colors": null,
+                    "image_license": "null",
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 42.021,
+                        "lon": -93.6348
+                    }
+                },
+                {
+                    "type": "ncaa_womens_basketball",
+                    "name": "Texas Tech Lady Raiders Womens Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/texas-tech-lady-raiders-womens-basketball-6a852f\/9645\/huge.jpg",
+                    "id": 9645,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/texas-tech-lady-raiders-womens-basketball-6a852f\/9645\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 9
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030300,
+                            "name": "ncaa_womens_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "null",
+                    "url": "https:\/\/seatgeek.com\/texas-tech-lady-raiders-womens-basketball-tickets",
+                    "score": 0.33,
+                    "slug": "texas-tech-lady-raiders-womens-basketball",
+                    "home_venue_id": 3484,
+                    "short_name": "Texas Tech (Women)",
+                    "num_upcoming_events": 9,
+                    "colors": null,
+                    "image_license": "null",
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": {
+                        "lat": 33.5813,
+                        "lon": -101.887
+                    }
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T03:30:00",
+            "time_tbd": true,
+            "short_title": "Texas Tech (Women) at Iowa State (Women)",
+            "visible_until_utc": "2021-02-07T06:00:00",
+            "stats": {
+                "listing_count": 1,
+                "average_price": 31,
+                "lowest_price_good_deals": null,
+                "lowest_price": 32,
+                "highest_price": 35,
+                "visible_listing_count": 1,
+                "dq_bucket_counts": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "median_price": 31,
+                "lowest_sg_base_price": 16,
+                "lowest_sg_base_price_good_deals": null
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1030000,
+                    "name": "basketball",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1030300,
+                    "name": "ncaa_womens_basketball",
+                    "parent_id": 1030000,
+                    "rank": 0
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/texas-tech-red-raiders-at-iowa-state-cyclones-womens-basketball-tickets\/ncaa-womens-basketball\/2021-02-06-3-30-am\/5346061",
+            "score": 0.316,
+            "announce_date": "2020-11-25T00:00:00",
+            "created_at": "2020-11-25T22:01:31",
+            "date_tbd": false,
+            "title": "Texas Tech Red Raiders at Iowa State Cyclones Womens Basketball",
+            "popularity": 0.573,
+            "description": "",
+            "status": "normal",
+            "access_method": null,
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "ncaa_womens_basketball",
+            "id": 5343589,
+            "datetime_utc": "2021-02-06T09:30:00",
+            "venue": {
+                "state": "TX",
+                "name_v2": "Frank Erwin Center",
+                "postal_code": "78701",
+                "name": "Frank Erwin Center",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/frank-erwin-center\/tickets",
+                "score": 0.731013,
+                "location": {
+                    "lat": 30.2767,
+                    "lon": -97.7324
+                },
+                "address": "1701 Red River",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 17,
+                "city": "Austin",
+                "slug": "frank-erwin-center",
+                "extended_address": "Austin, TX 78701",
+                "id": 917,
+                "popularity": 0,
+                "access_method": null,
+                "metro_code": 635,
+                "capacity": 16755,
+                "display_location": "Austin, TX"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "ncaa_womens_basketball",
+                    "name": "Texas Longhorns Womens Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/texas-longhorns-womens-basketball-5ab9b4\/9634\/huge.jpg",
+                    "id": 9634,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/texas-longhorns-womens-basketball-5ab9b4\/9634\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 9
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030300,
+                            "name": "ncaa_womens_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "https:\/\/commons.wikimedia.org\/wiki\/Category:Frank_Erwin_Center#\/media\/File:Frank_Erwin_Center_Basketball.JPG",
+                    "url": "https:\/\/seatgeek.com\/texas-longhorns-womens-basketball-tickets",
+                    "score": 0.39,
+                    "slug": "texas-longhorns-womens-basketball",
+                    "home_venue_id": 917,
+                    "short_name": "Texas (Women)",
+                    "num_upcoming_events": 9,
+                    "colors": null,
+                    "image_license": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.5\/",
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 30.2767,
+                        "lon": -97.7324
+                    }
+                },
+                {
+                    "type": "ncaa_womens_basketball",
+                    "name": "West Virginia Mountaineers Womens Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/west-virginia-mountaineers-womens-basketball-858c51\/9603\/huge.jpg",
+                    "id": 9603,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/west-virginia-mountaineers-womens-basketball-858c51\/9603\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 10
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030300,
+                            "name": "ncaa_womens_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "null",
+                    "url": "https:\/\/seatgeek.com\/west-virginia-mountaineers-womens-basketball-tickets",
+                    "score": 0.35,
+                    "slug": "west-virginia-mountaineers-womens-basketball",
+                    "home_venue_id": 3288,
+                    "short_name": "West Virginia (Women)",
+                    "num_upcoming_events": 10,
+                    "colors": null,
+                    "image_license": "null",
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": {
+                        "lat": 39.6493,
+                        "lon": -79.9815
+                    }
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T03:30:00",
+            "time_tbd": true,
+            "short_title": "West Virginia (Women) at Texas (Women)",
+            "visible_until_utc": "2021-02-07T06:00:00",
+            "stats": {
+                "listing_count": 2,
+                "average_price": 54,
+                "lowest_price_good_deals": 45,
+                "lowest_price": 45,
+                "highest_price": 64,
+                "visible_listing_count": 2,
+                "dq_bucket_counts": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "median_price": 50,
+                "lowest_sg_base_price": 29,
+                "lowest_sg_base_price_good_deals": 29
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1030000,
+                    "name": "basketball",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1030300,
+                    "name": "ncaa_womens_basketball",
+                    "parent_id": 1030000,
+                    "rank": 0
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/west-virginia-mountaineers-at-texas-longhorns-womens-basketball-tickets\/ncaa-womens-basketball\/2021-02-06-3-30-am\/5343589",
+            "score": 0.422,
+            "announce_date": "2020-11-17T00:00:00",
+            "created_at": "2020-11-17T23:22:08",
+            "date_tbd": false,
+            "title": "West Virginia Mountaineers at Texas Longhorns Women's Basketball",
+            "popularity": 0.664,
+            "description": "",
+            "status": "normal",
+            "access_method": null,
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "ncaa_womens_basketball",
+            "id": 5344590,
+            "datetime_utc": "2021-02-06T09:30:00",
+            "venue": {
+                "state": "OK",
+                "name_v2": "Gallagher-Iba Arena",
+                "postal_code": "74078",
+                "name": "Gallagher-Iba Arena",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/gallagher-iba-arena\/tickets",
+                "score": 0.566916,
+                "location": {
+                    "lat": 36.1257,
+                    "lon": -97.0651
+                },
+                "address": "202 Gallagher Hall",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 12,
+                "city": "Stillwater",
+                "slug": "gallagher-iba-arena",
+                "extended_address": "Stillwater, OK 74078",
+                "id": 3439,
+                "popularity": 0,
+                "access_method": null,
+                "metro_code": 650,
+                "capacity": 13611,
+                "display_location": "Stillwater, OK"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "ncaa_womens_basketball",
+                    "name": "Oklahoma State Cowgirls Womens Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/oklahoma-state-cowgirls-womens-basketball-b39483\/9624\/huge.jpg",
+                    "id": 9624,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/oklahoma-state-cowgirls-womens-basketball-b39483\/9624\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 8
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030300,
+                            "name": "ncaa_womens_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "http:\/\/25.media.tumblr.com\/tumblr_lycb43PAC11qeflxso2_1280.jpg#_=_",
+                    "url": "https:\/\/seatgeek.com\/oklahoma-state-cowgirls-womens-basketball-tickets",
+                    "score": 0.36,
+                    "slug": "oklahoma-state-cowgirls-womens-basketball",
+                    "home_venue_id": 3439,
+                    "short_name": "Oklahoma State (Women)",
+                    "num_upcoming_events": 8,
+                    "colors": null,
+                    "image_license": null,
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 36.1257,
+                        "lon": -97.0651
+                    }
+                },
+                {
+                    "type": "ncaa_womens_basketball",
+                    "name": "Oklahoma Sooners Womens Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/oklahoma-sooners-womens-basketball-1ad281\/9625\/huge.jpg",
+                    "id": 9625,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/oklahoma-sooners-womens-basketball-1ad281\/9625\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030300,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 6
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030300,
+                            "name": "ncaa_womens_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "http:\/\/farm4.staticflickr.com\/3618\/3402162012_58fd77a888_b.jpg",
+                    "url": "https:\/\/seatgeek.com\/oklahoma-sooners-womens-basketball-tickets",
+                    "score": 0.36,
+                    "slug": "oklahoma-sooners-womens-basketball",
+                    "home_venue_id": 3426,
+                    "short_name": "Oklahoma (Women)",
+                    "num_upcoming_events": 6,
+                    "colors": null,
+                    "image_license": null,
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": {
+                        "lat": 35.1874,
+                        "lon": -97.4437
+                    }
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T03:30:00",
+            "time_tbd": true,
+            "short_title": "Oklahoma (Women) at Oklahoma State (Women)",
+            "visible_until_utc": "2021-02-07T06:00:00",
+            "stats": {
+                "listing_count": 1,
+                "average_price": 35,
+                "lowest_price_good_deals": 32,
+                "lowest_price": 31,
+                "highest_price": 61,
+                "visible_listing_count": 1,
+                "dq_bucket_counts": [
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "median_price": 30,
+                "lowest_sg_base_price": 15,
+                "lowest_sg_base_price_good_deals": 16
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1030000,
+                    "name": "basketball",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1030300,
+                    "name": "ncaa_womens_basketball",
+                    "parent_id": 1030000,
+                    "rank": 0
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/oklahoma-sooners-at-oklahoma-state-cowgirls-womens-basketball-tickets\/ncaa-womens-basketball\/2021-02-06-3-30-am\/5344590",
+            "score": 0.342,
+            "announce_date": "2020-11-19T00:00:00",
+            "created_at": "2020-11-19T23:46:58",
+            "date_tbd": false,
+            "title": "Oklahoma Sooners at Oklahoma State Cowgirls Women's Basketball",
+            "popularity": 0.598,
+            "description": "",
+            "status": "normal",
+            "access_method": null,
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "theater",
+            "id": 5358590,
+            "datetime_utc": "2021-02-06T13:00:00",
+            "venue": {
+                "state": "TX",
+                "name_v2": "Ford Center",
+                "postal_code": "75034",
+                "name": "Ford Center",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/ford-center-3\/tickets",
+                "score": 0.780464,
+                "location": {
+                    "lat": 33.1095,
+                    "lon": -96.8272
+                },
+                "address": "9 Cowboys Way",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 3,
+                "city": "Frisco",
+                "slug": "ford-center-3",
+                "extended_address": "Frisco, TX 75034",
+                "id": 418739,
+                "popularity": 0,
+                "access_method": {
+                    "method": "QRCODE",
+                    "created_at": "2018-10-10T16:23:28Z",
+                    "employee_only": false
+                },
+                "metro_code": 623,
+                "capacity": 12000,
+                "display_location": "Frisco, TX"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "theater",
+                    "name": "WOGA Classic & Liukin International Competitions",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/woga-classic-liukin-international-competitions-11829e\/792937\/huge.jpg",
+                    "id": 792937,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/woga-classic-liukin-international-competitions-11829e\/792937\/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 2
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 3000000,
+                            "name": "theater",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 8
+                        }
+                    ],
+                    "image_attribution": "client provided",
+                    "url": "https:\/\/seatgeek.com\/woga-classic-liukin-international-competitions-tickets",
+                    "score": 0,
+                    "slug": "woga-classic-liukin-international-competitions",
+                    "home_venue_id": null,
+                    "short_name": "WOGA Classic & Liukin International Competitions",
+                    "num_upcoming_events": 2,
+                    "colors": null,
+                    "image_license": "client provided",
+                    "popularity": 0,
+                    "location": null
+                }
+            ],
+            "is_open": true,
+            "links": [],
+            "datetime_local": "2021-02-06T07:00:00",
+            "time_tbd": false,
+            "short_title": "WOGA Classic & Liukin International Competitions Day 2",
+            "visible_until_utc": "2021-02-07T01:30:00",
+            "stats": {
+                "listing_count": 61,
+                "average_price": 38,
+                "lowest_price_good_deals": null,
+                "lowest_price": 38,
+                "highest_price": 38,
+                "visible_listing_count": 23,
+                "dq_bucket_counts": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "median_price": 38,
+                "lowest_sg_base_price": 30,
+                "lowest_sg_base_price_good_deals": null
+            },
+            "taxonomies": [
+                {
+                    "id": 3000000,
+                    "name": "theater",
+                    "parent_id": null,
+                    "rank": 8
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/woga-classic-and-liukin-international-competitions-day-2-tickets\/theater\/2021-02-06-7-am\/5358590",
+            "score": 0.375,
+            "announce_date": "2021-01-22T00:00:00",
+            "created_at": "2021-01-22T16:44:19",
+            "date_tbd": false,
+            "title": "WOGA Classic & Liukin International Competitions Day 2",
+            "popularity": 0.565,
+            "description": "TO MAINTAIN A SAFE ENVIRONMENT, GUESTS WILL BE PERIODICALLY REQUIRED TO EXIT THE SEATING AREA FOR CLEANING AND SANITATION. THANK YOU FOR YOUR COOPERATION.",
+            "status": "normal",
+            "access_method": {
+                "method": "QRCODE",
+                "created_at": "2018-10-10T16:23:28Z",
+                "employee_only": false
+            },
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": "2021-02-07T01:30:00",
+            "general_admission": true,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "family",
+            "id": 5352512,
+            "datetime_utc": "2021-02-06T16:30:00",
+            "venue": {
+                "state": "MO",
+                "name_v2": "T-Mobile Center",
+                "postal_code": "64106",
+                "name": "T-Mobile Center",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/t-mobile-center\/tickets",
+                "score": 0.754243,
+                "location": {
+                    "lat": 39.0973,
+                    "lon": -94.5799
+                },
+                "address": "1407 Grand Blvd.",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 36,
+                "city": "Kansas City",
+                "slug": "t-mobile-center",
+                "extended_address": "Kansas City, MO 64106",
+                "id": 84,
+                "popularity": 0,
+                "access_method": {
+                    "method": "NONE",
+                    "created_at": "2015-11-11T20:57:45Z",
+                    "employee_only": false
+                },
+                "metro_code": 616,
+                "capacity": 19252,
+                "display_location": "Kansas City, MO"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "theater_family",
+                    "name": "Disney On Ice Dream Big",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/disney-on-ice-dream-big-71efee\/576406\/huge.jpg",
+                    "id": 576406,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/disney-on-ice-dream-big-71efee\/576406\/huge.jpg"
+                    },
+                    "divisions": null,
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 69
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 3000000,
+                            "name": "theater",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 8
+                        },
+                        {
+                            "id": 3050000,
+                            "name": "family",
+                            "parent_id": 3000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "https:\/\/www.flickr.com\/photos\/miguel_discart\/15946068904\/in\/photolist-qi6LJu-qXxNro-qXwFi5-7E9tgy-8sMNU9-4BFKnb-88PH2W-4BBBde-5wSCEn-5wS9Na-8sJCSi-8sMy7E-8sMvch-qi5pt5-88LtzT-88Lusi-reY2jz-6pypTD-88PGiY-6pypBR-ndRTYm-bqSLmp-6pCXbS-VfP2Fo-ekbwjE-k544Rj-dcQABS-6pyiwZ-6pCy21-ofbZM5-6pCvB7-6pyPbg-qXDN3V-8sMEwJ-8sN3h1-88LtGM-89c1PX-qi6K33-8sJNQ4-8sMMZo-oddb3j-8sJZZt-8sJDGH-88PHU5-rf1Vff-4BFLtG-qXDLUx-88PHQo-ax4Jqo-oUTeBD",
+                    "url": "https:\/\/seatgeek.com\/disney-on-ice-dream-big-tickets",
+                    "score": 0.43,
+                    "slug": "disney-on-ice-dream-big",
+                    "home_venue_id": null,
+                    "short_name": "Disney On Ice Dream Big",
+                    "num_upcoming_events": 69,
+                    "colors": null,
+                    "image_license": "https:\/\/creativecommons.org\/licenses\/by-sa\/2.0\/",
+                    "popularity": 0,
+                    "location": null
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T10:30:00",
+            "time_tbd": false,
+            "short_title": "Disney On Ice Dream Big - Kansas City",
+            "visible_until_utc": "2021-02-06T20:30:00",
+            "stats": {
+                "listing_count": 4,
+                "average_price": 72,
+                "lowest_price_good_deals": 48,
+                "lowest_price": 48,
+                "highest_price": 127,
+                "visible_listing_count": 4,
+                "dq_bucket_counts": [
+                    2,
+                    1,
+                    3,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "median_price": 74,
+                "lowest_sg_base_price": 28,
+                "lowest_sg_base_price_good_deals": 28
+            },
+            "taxonomies": [
+                {
+                    "id": 3000000,
+                    "name": "theater",
+                    "parent_id": null,
+                    "rank": 8
+                },
+                {
+                    "id": 3050000,
+                    "name": "family",
+                    "parent_id": 3000000,
+                    "rank": 0
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/disney-on-ice-dream-big-kansas-city-tickets\/family\/2021-02-06-10-30-am\/5352512",
+            "score": 0.419,
+            "announce_date": "2020-12-26T00:00:00",
+            "created_at": "2020-12-26T16:07:46",
+            "date_tbd": false,
+            "title": "Disney On Ice Dream Big - Kansas City",
+            "popularity": 0.621,
+            "description": "",
+            "status": "normal",
+            "access_method": {
+                "method": "NONE",
+                "created_at": "2015-11-11T20:57:45Z",
+                "employee_only": false
+            },
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "ncaa_basketball",
+            "id": 5342476,
+            "datetime_utc": "2021-02-06T17:00:00",
+            "venue": {
+                "state": "MO",
+                "name_v2": "Mizzou Arena",
+                "postal_code": "65211",
+                "name": "Mizzou Arena",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/mizzou-arena\/tickets",
+                "score": 0.660684,
+                "location": {
+                    "lat": 38.9325,
+                    "lon": -92.335
+                },
+                "address": "1 Champions Drive",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 10,
+                "city": "Columbia",
+                "slug": "mizzou-arena",
+                "extended_address": "Columbia, MO 65211",
+                "id": 3461,
+                "popularity": 0,
+                "access_method": null,
+                "metro_code": 604,
+                "capacity": 15061,
+                "display_location": "Columbia, MO"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "ncaa_basketball",
+                    "name": "Missouri Tigers Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/missouri-tigers-basketball-773d8a\/4017\/huge.jpg",
+                    "id": 4017,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/missouri-tigers-basketball-773d8a\/4017\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": "SEC",
+                            "display_name": "Southeastern",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "sec"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 11
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030200,
+                            "name": "ncaa_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 5
+                        }
+                    ],
+                    "image_attribution": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a0\/Mizzou_Arena_interior_-_2014.jpg",
+                    "url": "https:\/\/seatgeek.com\/missouri-tigers-basketball-tickets",
+                    "score": 0.56,
+                    "slug": "missouri-tigers-basketball",
+                    "home_venue_id": 3461,
+                    "short_name": "Missouri",
+                    "num_upcoming_events": 11,
+                    "colors": {
+                        "all": [
+                            "#191919",
+                            "#F1B82D",
+                            "#191919"
+                        ],
+                        "iconic": "#191919",
+                        "primary": [
+                            "#191919",
+                            "#F1B82D"
+                        ]
+                    },
+                    "image_license": null,
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 38.9325,
+                        "lon": -92.335
+                    }
+                },
+                {
+                    "type": "ncaa_basketball",
+                    "name": "Alabama Crimson Tide Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/alabama-crimson-tide-basketball-69fb92\/4085\/huge.jpg",
+                    "id": 4085,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/alabama-crimson-tide-basketball-69fb92\/4085\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": "SEC",
+                            "display_name": "Southeastern",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "sec"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 11
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030200,
+                            "name": "ncaa_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 5
+                        }
+                    ],
+                    "image_attribution": "null",
+                    "url": "https:\/\/seatgeek.com\/alabama-crimson-tide-basketball-tickets",
+                    "score": 0.55,
+                    "slug": "alabama-crimson-tide-basketball",
+                    "home_venue_id": 3444,
+                    "short_name": "Alabama",
+                    "num_upcoming_events": 11,
+                    "colors": {
+                        "all": [
+                            "#9E1B32",
+                            "#828A8F",
+                            "#9E1B32"
+                        ],
+                        "iconic": "#9E1B32",
+                        "primary": [
+                            "#9E1B32",
+                            "#828A8F"
+                        ]
+                    },
+                    "image_license": "from official facebook",
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": {
+                        "lat": 33.2027,
+                        "lon": -87.5397
+                    }
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T11:00:00",
+            "time_tbd": false,
+            "short_title": "Alabama at Missouri",
+            "visible_until_utc": "2021-02-06T21:00:00",
+            "stats": {
+                "listing_count": 4,
+                "average_price": 49,
+                "lowest_price_good_deals": 42,
+                "lowest_price": 42,
+                "highest_price": 60,
+                "visible_listing_count": 4,
+                "dq_bucket_counts": [
+                    2,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    2,
+                    0
+                ],
+                "median_price": 45,
+                "lowest_sg_base_price": 23,
+                "lowest_sg_base_price_good_deals": 23
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1030000,
+                    "name": "basketball",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1030200,
+                    "name": "ncaa_basketball",
+                    "parent_id": 1030000,
+                    "rank": 5
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/alabama-crimson-tide-at-missouri-tigers-basketball-tickets\/ncaa-basketball\/2021-02-06-11-am\/5342476",
+            "score": 0.584,
+            "announce_date": "2020-11-12T00:00:00",
+            "created_at": "2020-11-12T16:01:12",
+            "date_tbd": false,
+            "title": "Alabama Crimson Tide at Missouri Tigers Basketball",
+            "popularity": 0.801,
+            "description": "",
+            "status": "normal",
+            "access_method": null,
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "ncaa_basketball",
+            "id": 5342148,
+            "datetime_utc": "2021-02-06T17:00:00",
+            "venue": {
+                "state": "OK",
+                "name_v2": "Lloyd Noble Center",
+                "postal_code": "73019",
+                "name": "Lloyd Noble Center",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/lloyd-noble-center\/tickets",
+                "score": 0.616179,
+                "location": {
+                    "lat": 35.1874,
+                    "lon": -97.4437
+                },
+                "address": "2900 Lloyd Jenkins Ave.",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 11,
+                "city": "Norman",
+                "slug": "lloyd-noble-center",
+                "extended_address": "Norman, OK 73019",
+                "id": 3426,
+                "popularity": 0,
+                "access_method": null,
+                "metro_code": 650,
+                "capacity": 11528,
+                "display_location": "Norman, OK"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "basketball",
+                    "name": "Oklahoma Sooners Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/oklahoma-sooners-basketball-e19b45\/4019\/huge.jpg",
+                    "id": 4019,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/oklahoma-sooners-basketball-e19b45\/4019\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 10
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        }
+                    ],
+                    "image_attribution": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/8f\/LNC-Inside.jpg",
+                    "url": "https:\/\/seatgeek.com\/oklahoma-sooners-basketball-tickets",
+                    "score": 0.62,
+                    "slug": "oklahoma-sooners-basketball",
+                    "home_venue_id": 3426,
+                    "short_name": "Oklahoma",
+                    "num_upcoming_events": 10,
+                    "colors": {
+                        "all": [
+                            "#841617",
+                            "#FDF9D8",
+                            "#841617"
+                        ],
+                        "iconic": "#841617",
+                        "primary": [
+                            "#841617",
+                            "#FDF9D8"
+                        ]
+                    },
+                    "image_license": null,
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 35.1874,
+                        "lon": -97.4437
+                    }
+                },
+                {
+                    "type": "ncaa_basketball",
+                    "name": "Iowa State Cyclones Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/iowa-state-cyclones-basketball-7be191\/4014\/huge.jpg",
+                    "id": 4014,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/iowa-state-cyclones-basketball-7be191\/4014\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": "Big 12",
+                            "display_name": "Big 12",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-12"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 18
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030200,
+                            "name": "ncaa_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 5
+                        }
+                    ],
+                    "image_attribution": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/35\/Hilton_Coliseum_Inside_View.jpg",
+                    "url": "https:\/\/seatgeek.com\/iowa-state-cyclones-basketball-tickets",
+                    "score": 0.6,
+                    "slug": "iowa-state-cyclones-basketball",
+                    "home_venue_id": 3458,
+                    "short_name": "Iowa State",
+                    "num_upcoming_events": 18,
+                    "colors": {
+                        "all": [
+                            "#C8102E",
+                            "#F1BE48",
+                            "#C8102E"
+                        ],
+                        "iconic": "#C8102E",
+                        "primary": [
+                            "#C8102E",
+                            "#F1BE48"
+                        ]
+                    },
+                    "image_license": null,
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": {
+                        "lat": 42.021,
+                        "lon": -93.6348
+                    }
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T11:00:00",
+            "time_tbd": false,
+            "short_title": "Iowa State Cyclones at Oklahoma Sooners Basketball",
+            "visible_until_utc": "2021-02-06T21:00:00",
+            "stats": {
+                "listing_count": 23,
+                "average_price": 33,
+                "lowest_price_good_deals": 20,
+                "lowest_price": 20,
+                "highest_price": 67,
+                "visible_listing_count": 23,
+                "dq_bucket_counts": [
+                    5,
+                    5,
+                    3,
+                    1,
+                    2,
+                    6,
+                    5,
+                    0
+                ],
+                "median_price": 30,
+                "lowest_sg_base_price": 7,
+                "lowest_sg_base_price_good_deals": 7
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1030000,
+                    "name": "basketball",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1030200,
+                    "name": "ncaa_basketball",
+                    "parent_id": 1030000,
+                    "rank": 5
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/iowa-state-cyclones-at-oklahoma-sooners-basketball-tickets\/ncaa-basketball\/2021-02-06-11-am\/5342148",
+            "score": 0.524,
+            "announce_date": "2020-11-11T00:00:00",
+            "created_at": "2020-11-11T16:00:46",
+            "date_tbd": false,
+            "title": "Iowa State Cyclones at Oklahoma Sooners Basketball",
+            "popularity": 0.751,
+            "description": "",
+            "status": "normal",
+            "access_method": null,
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "ncaa_basketball",
+            "id": 5345184,
+            "datetime_utc": "2021-02-06T17:00:00",
+            "venue": {
+                "state": "TX",
+                "name_v2": "Moody Coliseum",
+                "postal_code": "75205",
+                "name": "Moody Coliseum",
+                "links": [],
+                "timezone": "America\/Chicago",
+                "url": "https:\/\/seatgeek.com\/venues\/moody-coliseum\/tickets",
+                "score": 0.622773,
+                "location": {
+                    "lat": 32.842,
+                    "lon": -96.7825
+                },
+                "address": "6185 Airline",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 10,
+                "city": "Dallas",
+                "slug": "moody-coliseum",
+                "extended_address": "Dallas, TX 75205",
+                "id": 3452,
+                "popularity": 0,
+                "access_method": null,
+                "metro_code": 623,
+                "capacity": 8998,
+                "display_location": "Dallas, TX"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "ncaa_basketball",
+                    "name": "SMU Mustangs Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/smu-mustangs-basketball-080a52\/4069\/huge.jpg",
+                    "id": 4069,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/smu-mustangs-basketball-080a52\/4069\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": "American Athletic Conference",
+                            "display_name": "American Athletic Conference",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "american-athletic-conference"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 12
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030200,
+                            "name": "ncaa_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 5
+                        }
+                    ],
+                    "image_attribution": "null",
+                    "url": "https:\/\/seatgeek.com\/smu-mustangs-basketball-tickets",
+                    "score": 0.52,
+                    "slug": "smu-mustangs-basketball",
+                    "home_venue_id": 3452,
+                    "short_name": "SMU",
+                    "num_upcoming_events": 12,
+                    "colors": {
+                        "all": [
+                            "#0033A0",
+                            "#C8102E",
+                            "#C8102E"
+                        ],
+                        "iconic": "#C8102E",
+                        "primary": [
+                            "#0033A0",
+                            "#C8102E"
+                        ]
+                    },
+                    "image_license": null,
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 32.842,
+                        "lon": -96.7825
+                    }
+                },
+                {
+                    "type": "ncaa_basketball",
+                    "name": "South Florida Bulls Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/south-florida-bulls-basketball-8b8b9c\/4047\/huge.jpg",
+                    "id": 4047,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/south-florida-bulls-basketball-8b8b9c\/4047\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": "American Athletic Conference",
+                            "display_name": "American Athletic Conference",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "american-athletic-conference"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 20
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030200,
+                            "name": "ncaa_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 5
+                        }
+                    ],
+                    "image_attribution": "null",
+                    "url": "https:\/\/seatgeek.com\/south-florida-bulls-basketball-tickets",
+                    "score": 0.47,
+                    "slug": "south-florida-bulls-basketball",
+                    "home_venue_id": 223,
+                    "short_name": "South Florida",
+                    "num_upcoming_events": 20,
+                    "colors": {
+                        "all": [
+                            "#006747",
+                            "#CFC493",
+                            "#006747"
+                        ],
+                        "iconic": "#006747",
+                        "primary": [
+                            "#006747",
+                            "#CFC493"
+                        ]
+                    },
+                    "image_license": null,
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": {
+                        "lat": 28.0592,
+                        "lon": -82.4066
+                    }
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T11:00:00",
+            "time_tbd": false,
+            "short_title": "South Florida at SMU",
+            "visible_until_utc": "2021-02-06T21:00:00",
+            "stats": {
+                "listing_count": null,
+                "average_price": null,
+                "lowest_price_good_deals": null,
+                "lowest_price": null,
+                "highest_price": null,
+                "visible_listing_count": null,
+                "dq_bucket_counts": null,
+                "median_price": null,
+                "lowest_sg_base_price": null,
+                "lowest_sg_base_price_good_deals": null
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1030000,
+                    "name": "basketball",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1030200,
+                    "name": "ncaa_basketball",
+                    "parent_id": 1030000,
+                    "rank": 5
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/south-florida-bulls-at-smu-mustangs-basketball-tickets\/ncaa-basketball\/2021-02-06-11-am\/5345184",
+            "score": 0.48,
+            "announce_date": "2020-11-24T00:00:00",
+            "created_at": "2020-11-24T16:00:03",
+            "date_tbd": false,
+            "title": "South Florida Bulls at SMU Mustangs Basketball",
+            "popularity": 0.57,
+            "description": "",
+            "status": "normal",
+            "access_method": null,
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "ncaa_basketball",
+            "id": 5356482,
+            "datetime_utc": "2021-02-06T17:00:00",
+            "venue": {
+                "state": "IN",
+                "name_v2": "Hinkle Fieldhouse",
+                "postal_code": "46208",
+                "name": "Hinkle Fieldhouse",
+                "links": [],
+                "timezone": "America\/Indiana\/Indianapolis",
+                "url": "https:\/\/seatgeek.com\/venues\/hinkle-fieldhouse\/tickets",
+                "score": 0.636396,
+                "location": {
+                    "lat": 39.8436,
+                    "lon": -86.1673
+                },
+                "address": "510 West 49th St.",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 22,
+                "city": "Indianapolis",
+                "slug": "hinkle-fieldhouse",
+                "extended_address": "Indianapolis, IN 46208",
+                "id": 3147,
+                "popularity": 0,
+                "access_method": null,
+                "metro_code": 527,
+                "capacity": 9100,
+                "display_location": "Indianapolis, IN"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "ncaa_basketball",
+                    "name": "Butler Bulldogs Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/butler-bulldogs-basketball-e00a17\/6468\/huge.jpg",
+                    "id": 6468,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/butler-bulldogs-basketball-e00a17\/6468\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": "Big East",
+                            "display_name": "Big East",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-east"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 15
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030200,
+                            "name": "ncaa_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 5
+                        }
+                    ],
+                    "image_attribution": null,
+                    "url": "https:\/\/seatgeek.com\/butler-bulldogs-basketball-tickets",
+                    "score": 0.59,
+                    "slug": "butler-bulldogs-basketball",
+                    "home_venue_id": 3147,
+                    "short_name": "Butler",
+                    "num_upcoming_events": 15,
+                    "colors": {
+                        "all": [
+                            "#13294B",
+                            "#747678",
+                            "#13294B"
+                        ],
+                        "iconic": "#13294B",
+                        "primary": [
+                            "#13294B",
+                            "#747678"
+                        ]
+                    },
+                    "image_license": null,
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 39.8436,
+                        "lon": -86.1673
+                    }
+                },
+                {
+                    "type": "ncaa_basketball",
+                    "name": "DePaul Blue Demons Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/depaul-blue-demons-basketball-d81519\/4038\/huge.jpg",
+                    "id": 4038,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/depaul-blue-demons-basketball-d81519\/4038\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": "Big East",
+                            "display_name": "Big East",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "big-east"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 27
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030200,
+                            "name": "ncaa_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 5
+                        }
+                    ],
+                    "image_attribution": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/23\/Inside_Allstate_Arena.jpg",
+                    "url": "https:\/\/seatgeek.com\/depaul-blue-demons-basketball-tickets",
+                    "score": 0.59,
+                    "slug": "depaul-blue-demons-basketball",
+                    "home_venue_id": 425897,
+                    "short_name": "DePaul",
+                    "num_upcoming_events": 27,
+                    "colors": {
+                        "all": [
+                            "#005EB8",
+                            "#E4002B",
+                            "#005EB8"
+                        ],
+                        "iconic": "#005EB8",
+                        "primary": [
+                            "#005EB8",
+                            "#E4002B"
+                        ]
+                    },
+                    "image_license": null,
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": {
+                        "lat": 41.853,
+                        "lon": -87.6221
+                    }
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T12:00:00",
+            "time_tbd": false,
+            "short_title": "DePaul at Butler",
+            "visible_until_utc": "2021-02-06T21:00:00",
+            "stats": {
+                "listing_count": 6,
+                "average_price": 72,
+                "lowest_price_good_deals": 68,
+                "lowest_price": 68,
+                "highest_price": 99,
+                "visible_listing_count": 6,
+                "dq_bucket_counts": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                "median_price": 67,
+                "lowest_sg_base_price": 43,
+                "lowest_sg_base_price_good_deals": 43
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1030000,
+                    "name": "basketball",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1030200,
+                    "name": "ncaa_basketball",
+                    "parent_id": 1030000,
+                    "rank": 5
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/depaul-blue-demons-at-butler-bulldogs-basketball-tickets\/ncaa-basketball\/2021-02-06-12-pm\/5356482",
+            "score": 0.549,
+            "announce_date": "2021-01-10T00:00:00",
+            "created_at": "2021-01-10T16:01:15",
+            "date_tbd": false,
+            "title": "DePaul Blue Demons at Butler Bulldogs Basketball",
+            "popularity": 0.77,
+            "description": "",
+            "status": "normal",
+            "access_method": null,
+            "event_promotion": null,
+            "announcements": {},
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        },
+        {
+            "type": "ncaa_basketball",
+            "id": 5364324,
+            "datetime_utc": "2021-02-06T17:30:00",
+            "venue": {
+                "state": "NY",
+                "name_v2": "Rose Hill Gym",
+                "postal_code": "10458",
+                "name": "Rose Hill Gym",
+                "links": [],
+                "timezone": "America\/New_York",
+                "url": "https:\/\/seatgeek.com\/venues\/rose-hill-gym\/tickets",
+                "score": 0.395966,
+                "location": {
+                    "lat": 40.8612,
+                    "lon": -73.8892
+                },
+                "address": "441 East Fordham Road",
+                "country": "US",
+                "has_upcoming_events": true,
+                "num_upcoming_events": 25,
+                "city": "Bronx",
+                "slug": "rose-hill-gym",
+                "extended_address": "Bronx, NY 10458",
+                "id": 4188,
+                "popularity": 0,
+                "access_method": null,
+                "metro_code": 501,
+                "capacity": 0,
+                "display_location": "Bronx, NY"
+            },
+            "datetime_tbd": false,
+            "performers": [
+                {
+                    "type": "ncaa_basketball",
+                    "name": "Fordham Rams Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/fordham-rams-basketball-b9f1d8\/6363\/huge.jpg",
+                    "id": 6363,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/fordham-rams-basketball-b9f1d8\/6363\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": "A-10",
+                            "display_name": "Atlantic 10",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "atlantic-10"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "primary": true,
+                    "stats": {
+                        "event_count": 24
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030200,
+                            "name": "ncaa_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 5
+                        }
+                    ],
+                    "image_attribution": "http:\/\/thefordhamram.files.wordpress.com\/2013\/02\/mandel-color-ally-white.jpg",
+                    "url": "https:\/\/seatgeek.com\/fordham-rams-basketball-tickets",
+                    "score": 0.4,
+                    "slug": "fordham-rams-basketball",
+                    "home_venue_id": 4188,
+                    "short_name": "Fordham",
+                    "num_upcoming_events": 24,
+                    "colors": null,
+                    "image_license": null,
+                    "popularity": 0,
+                    "home_team": true,
+                    "location": {
+                        "lat": 40.8612,
+                        "lon": -73.8892
+                    }
+                },
+                {
+                    "type": "ncaa_basketball",
+                    "name": "La Salle Explorers Basketball",
+                    "image": "https:\/\/seatgeek.com\/images\/performers-landscape\/la-salle-explorers-basketball-8d8e7c\/4027\/huge.jpg",
+                    "id": 4027,
+                    "images": {
+                        "huge": "https:\/\/seatgeek.com\/images\/performers-landscape\/la-salle-explorers-basketball-8d8e7c\/4027\/huge.jpg"
+                    },
+                    "divisions": [
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": null,
+                            "display_name": "Division I",
+                            "display_type": "Division",
+                            "division_level": 1,
+                            "slug": null
+                        },
+                        {
+                            "taxonomy_id": 1030200,
+                            "short_name": "A-10",
+                            "display_name": "Atlantic 10",
+                            "display_type": "Conference",
+                            "division_level": 2,
+                            "slug": "atlantic-10"
+                        }
+                    ],
+                    "has_upcoming_events": true,
+                    "stats": {
+                        "event_count": 26
+                    },
+                    "taxonomies": [
+                        {
+                            "id": 1000000,
+                            "name": "sports",
+                            "parent_id": null,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030000,
+                            "name": "basketball",
+                            "parent_id": 1000000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 0
+                        },
+                        {
+                            "id": 1030200,
+                            "name": "ncaa_basketball",
+                            "parent_id": 1030000,
+                            "document_source": {
+                                "source_type": "ELASTIC",
+                                "generation_type": "FULL"
+                            },
+                            "rank": 5
+                        }
+                    ],
+                    "image_attribution": "http:\/\/philahoops.com\/wp-content\/uploads\/2013\/11\/duren1-lasalle.jpg",
+                    "url": "https:\/\/seatgeek.com\/la-salle-explorers-basketball-tickets",
+                    "score": 0.44,
+                    "slug": "la-salle-explorers-basketball",
+                    "home_venue_id": 4224,
+                    "short_name": "La Salle",
+                    "num_upcoming_events": 26,
+                    "colors": null,
+                    "image_license": null,
+                    "popularity": 0,
+                    "away_team": true,
+                    "location": {
+                        "lat": 40.0399,
+                        "lon": -75.1566
+                    }
+                }
+            ],
+            "is_open": false,
+            "links": [],
+            "datetime_local": "2021-02-06T12:30:00",
+            "time_tbd": false,
+            "short_title": "La Salle at Fordham",
+            "visible_until_utc": "2021-02-06T21:30:00",
+            "stats": {
+                "listing_count": null,
+                "average_price": null,
+                "lowest_price_good_deals": null,
+                "lowest_price": null,
+                "highest_price": null,
+                "visible_listing_count": null,
+                "dq_bucket_counts": null,
+                "median_price": null,
+                "lowest_sg_base_price": null,
+                "lowest_sg_base_price_good_deals": null
+            },
+            "taxonomies": [
+                {
+                    "id": 1000000,
+                    "name": "sports",
+                    "parent_id": null,
+                    "rank": 0
+                },
+                {
+                    "id": 1030000,
+                    "name": "basketball",
+                    "parent_id": 1000000,
+                    "rank": 0
+                },
+                {
+                    "id": 1030200,
+                    "name": "ncaa_basketball",
+                    "parent_id": 1030000,
+                    "rank": 5
+                }
+            ],
+            "url": "https:\/\/seatgeek.com\/la-salle-explorers-at-fordham-rams-basketball-tickets\/ncaa-basketball\/2021-02-06-12-30-pm\/5364324",
+            "score": 0,
+            "announce_date": "2021-02-06T00:00:00",
+            "created_at": "2021-02-06T16:00:07",
+            "date_tbd": false,
+            "title": "La Salle Explorers at Fordham Rams Basketball",
+            "popularity": 0,
+            "description": "",
+            "status": "normal",
+            "access_method": null,
+            "event_promotion": null,
+            "announcements": {
+                "checkout_disclosures": {
+                    "messages": [
+                        {
+                            "text": "All purchases are 100% guaranteed. Prices set by the seller may be above or below face value."
+                        }
+                    ]
+                }
+            },
+            "conditional": false,
+            "enddatetime_utc": null,
+            "themes": [],
+            "domain_information": []
+        }
+    ],
+    "meta": {
+        "total": 121642,
+        "took": 8,
+        "page": 1,
+        "per_page": 10,
+        "geolocation": null
+    },
+    "in_hand": {}
+}

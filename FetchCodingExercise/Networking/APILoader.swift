@@ -54,7 +54,14 @@ class APILoader<T: APIHandler> {
                 }
             }
             else if let returnedData = data {
-                completion(.success(self.api.parseResponse(data: returnedData)))
+                self.api.parseResponse(data: returnedData) { result in
+                    switch result {
+                    case .success(let returnedObject):
+                        completion(.success(returnedObject))
+                    case .failure(let error):
+                        completion(.failure(error))
+                    }
+                }
             }
         }.resume()
         

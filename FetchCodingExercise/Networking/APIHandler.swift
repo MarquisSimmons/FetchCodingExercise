@@ -9,7 +9,7 @@ import Foundation
 protocol APIHandler {
     associatedtype ResponseDataType
     func createRequest(using path: URL) -> URLRequest
-    func parseResponse(data: Data) -> ResponseDataType
+    func parseResponse(data: Data, completion: @escaping (_ result: Result<ResponseDataType,NetworkError>) -> Void)
 }
 
 extension APIHandler {
