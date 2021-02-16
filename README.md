@@ -1,4 +1,4 @@
-# Fetch Rewards Take home Assessment
+# Fetch Rewards Take Home Assessment
 
 This is a simple app page that fetches Events from Seat Geek and displays them to a user inside of a TableView.  When a user taps a cell they will be brought to the Details Page for that event where they can favorite or un-favorite an event. The favorited events are being persisted through UserDefaults.
 
