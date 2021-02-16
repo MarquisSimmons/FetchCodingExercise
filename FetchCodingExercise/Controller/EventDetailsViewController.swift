@@ -92,8 +92,6 @@ class EventDetailsViewController: UIViewController {
             eventDateLabel.trailingAnchor.constraint(equalTo: eventInfoStack.trailingAnchor),
             eventDateLabel.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.05)
         ]
-        
-        
            favoriteButton = UIBarButtonItem(image: getBarButtonStatus(), style: .plain, target: self, action: #selector(favoriteButtonPressed(_:)))
            favoriteButton.tintColor = .red
     

@@ -21,25 +21,21 @@ extension EventList {
         
         var favorited: Bool?
         
-        
         func formatDate() -> String? {
             var convertedDateString = datetimeUtc
             let utcDateFormatter = DateFormatter()
             utcDateFormatter.locale = Locale(identifier: "en_US_POSIX")
             utcDateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+            
             if let dateToTimeInterval = utcDateFormatter.date(from: datetimeUtc)?.timeIntervalSinceReferenceDate {
+                let newDate = Date(timeIntervalSinceReferenceDate: dateToTimeInterval)
                 let dateFormatter = DateFormatter()
                 dateFormatter.dateStyle = .full
                 dateFormatter.timeStyle = .short
-                
-                let newDate = Date(timeIntervalSinceReferenceDate: dateToTimeInterval)
                 dateFormatter.locale = Locale(identifier: "en_US")
                 convertedDateString = dateFormatter.string(from: newDate)
                 
             }
-            
-            
-            
             return convertedDateString
             
         }

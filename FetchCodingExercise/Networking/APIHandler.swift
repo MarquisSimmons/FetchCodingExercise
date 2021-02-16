@@ -17,6 +17,5 @@ extension APIHandler {
         var urlRequest = URLRequest(url: path)
         urlRequest.httpMethod = "GET"
         return urlRequest
-        
     }
 }

@@ -39,7 +39,7 @@ class EventsViewController: UIViewController {
     var filteredEvents = [EventList.Event]()
     let service = NetworkingServices()
     var favoritedData = UserDefaults.standard.object(forKey: "favorited-events") as? Data
-    lazy var favoritedSet = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(favoritedData!) as? Set<Int>
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,30 +47,7 @@ class EventsViewController: UIViewController {
         eventsTableView.dataSource = self
         searchBar.delegate = self
         setupViews()
-        
-        service.getEvents { [weak self] result in
-            guard let strongSelf = self else { return }
-            switch result {
-            case .success(let eventList):
-                strongSelf.listOfEvents = eventList
-                strongSelf.filteredEvents = strongSelf.listOfEvents
-                DispatchQueue.main.async {
-                    if strongSelf.listOfEvents.isEmpty {
-                        strongSelf.eventsTableView.isHidden = true
-                        strongSelf.errorLabel.isHidden = false
-                        strongSelf.errorLabel.text = "Hmm. Looks like there aren't any events."
-                    }
-                    strongSelf.eventsTableView.reloadData()
-                }
-            case .failure(let error):
-                DispatchQueue.main.async {
-                    strongSelf.eventsTableView.isHidden = true
-                    strongSelf.errorLabel.isHidden = false
-                }
-                print("There was an error while trying to retrieve the events \(error.localizedDescription)")
-                
-            }
-        }
+        fetchEvents()
         
     }
     /// This helper function is responsible for adding  constraints to the View's subviews
@@ -95,8 +72,31 @@ class EventsViewController: UIViewController {
         NSLayoutConstraint.activate(eventsTableViewConstraints)
         NSLayoutConstraint.activate(errorLabelConstraints)
         
-        
-        
+    }
+    fileprivate func fetchEvents() {
+        service.getEvents { [weak self] result in
+            guard let strongSelf = self else { return }
+            switch result {
+            case .success(let eventList):
+                strongSelf.listOfEvents = eventList
+                strongSelf.filteredEvents = strongSelf.listOfEvents
+                DispatchQueue.main.async {
+                    if strongSelf.listOfEvents.isEmpty {
+                        strongSelf.eventsTableView.isHidden = true
+                        strongSelf.errorLabel.isHidden = false
+                        strongSelf.errorLabel.text = "Hmm. Looks like there aren't any events."
+                    }
+                    strongSelf.eventsTableView.reloadData()
+                }
+            case .failure(let error):
+                DispatchQueue.main.async {
+                    strongSelf.eventsTableView.isHidden = true
+                    strongSelf.errorLabel.isHidden = false
+                }
+                print("There was an error while trying to retrieve the events \(error.localizedDescription)")
+                
+            }
+        }
     }
 }
 
@@ -184,7 +184,8 @@ extension EventsViewController: FavoriteToggleHandler {
         else {
             event.favorited!.toggle()
         }
-        guard var favoritedSet = favoritedSet else {
+        guard var favoritedSet = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(favoritedData!) as? Set<Int>
+        else {
             fatalError("Favorite Event Set does not exist!")
         }
         if event.favorited! {

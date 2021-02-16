@@ -13,25 +13,24 @@ struct EventsAPI: APIHandler {
         do {
             let jsonDecoder = JSONDecoder()
             jsonDecoder.keyDecodingStrategy = .convertFromSnakeCase
+            
             let eventObjects = try jsonDecoder.decode(EventList.self, from: data).events
             
             // Assigns the favorited flag to the events upon initialization
             let favoritedData = userDefaults.object(forKey: "favorited-events") as? Data
-            if let favoriteEvents = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(favoritedData!) as? Set<Int> {
-                events = eventObjects.map({ (event) -> EventList.Event in
-                    event.favorited = favoriteEvents.contains(event.id)
-                    return event
-                })
-                completion(.success(events))
-            }
-            events = eventObjects
+            guard let favoriteEvents = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(favoritedData!) as? Set<Int> else { return }
+            
+            events = eventObjects.map({ (event) -> EventList.Event in
+                event.favorited = favoriteEvents.contains(event.id)
+                return event
+            })
             completion(.success(events))
             
         }
         catch let jsonError {
             print("There was an error decoding the Events: \(jsonError)")
             completion(.failure(.malformedJSON))
-
+            
         }
     }
 }
